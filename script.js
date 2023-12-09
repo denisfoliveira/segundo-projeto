@@ -1,4 +1,5 @@
-// Crie uma função que recebew como parâmetro a quantidade de vitórias e derrotas de um jogador, depois disso retorne o resultado para uma variável, o salvo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+// Crie uma função que recebew como parâmetro a quantidade de vitórias e derrotas de um jogador,
+//depois disso retorne o resultado para uma variável, o salvo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
 
 //Se vitórias for menor que 10 = Ferro
 //Se vitórias for entre 11 e 20 = Bronze
@@ -42,6 +43,4 @@ function nivel(saldo) {
   }
 }
 
-console.log(
-  "O Herói tem saldo de " + saldoWin + " Vitórias e está no nível " + nivelUser
-);
+console.log("O Herói tem saldo de " + saldoWin + " Vitórias e está no nível " + nivelUser);
